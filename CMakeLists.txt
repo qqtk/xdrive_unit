@@ -60,7 +60,7 @@ include_directories(include
 
 ## Declare a cpp executable
 add_executable(xdrive_unit src/xdrive_unit.cpp)
-target_link_libraries(xdrive_unit libxNetDriver
+target_link_libraries(xdrive_unit libxNetDriver.so
   ${catkin_LIBRARIES}
     ${EIGEN3_LIBRARIES}
     ${Boost_LIBRARIES}
