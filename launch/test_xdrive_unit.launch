@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+    <node pkg="xdrive_unit" type="xdrive_unit" name="xdrive_unit_node" output="screen">
+        <param name="exec_rate" value="20"/>
+    </node>
+</launch>
