@@ -117,7 +117,7 @@ int main(int argc, char** argv)
 	// ticksLR_pub.publish(ticksMsg);
     ticksMLRmsg.yaw = 99;
     ticksMLRmsg.pitch = 99;
-    ticksLR_pub.publish(ticksMLRmsg);
+    ticksMLR_pub.publish(ticksMLRmsg);
 
         ros::spinOnce();
         loop_rate.sleep();
