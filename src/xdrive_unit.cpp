@@ -67,7 +67,7 @@ int main(int argc, char** argv)
 	twist_vec.Vlin =0.2;
 	twist_vec.Vang =0;
 
-  ros::init(argc, argv, "/vel_basecomm" );
+  ros::init(argc, argv, "vel_basecomm" );
   ROS_INFO("vel_basecomm starting");
   ros::NodeHandle nh;
 
